@@ -1,0 +1,28 @@
+/* Deshabiliar las animaciones en modo mobile */
+
+@media screen and (max-width: 768px) {
+    [data-aos] {
+        pointer-events: auto !important;
+    }
+
+    html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+        opacity: 1 !important;
+    }
+
+    html:not(.no-js) [data-aos=fade-right] {
+        transform: none !important;
+    }
+
+    html:not(.no-js) [data-aos=fade-left] {
+        transform: none !important;
+    }
+
+    html:not(.no-js) [data-aos=fade-up] {
+        transform: none !important;
+    }
+
+    html:not(.no-js) [data-aos=flip-right] {
+        transform: none !important;
+    }
+
+}

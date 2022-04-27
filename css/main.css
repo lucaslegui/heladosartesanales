@@ -1,0 +1,131 @@
+/* imports */
+@import url("https://fonts.googleapis.com/css2?family=Bevan&family=Hind:wght@300;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  vertical-align: baseline; }
+
+img,
+picture,
+video,
+iframe,
+figure {
+  max-width: 100%;
+  /* width: 100%; */
+  display: block; }
+
+a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  font-size: inherit; }
+
+p a {
+  display: inline; }
+
+li {
+  list-style-type: none; }
+
+html {
+  scroll-behavior: smooth; }
+
+/* Deshabiliar las animaciones en modo mobile */
+@media screen and (max-width: 768px) {
+  [data-aos] {
+    pointer-events: auto !important; }
+  html:not(.no-js) [data-aos^=fade][data-aos^=fade] {
+    opacity: 1 !important; }
+  html:not(.no-js) [data-aos=fade-right] {
+    transform: none !important; }
+  html:not(.no-js) [data-aos=fade-left] {
+    transform: none !important; }
+  html:not(.no-js) [data-aos=fade-up] {
+    transform: none !important; }
+  html:not(.no-js) [data-aos=flip-right] {
+    transform: none !important; } }
+
+/* VARIABLES DE TEXTO */
+/* colores  */
+/* sizing */
+/* ETIQUETAS */
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2em;
+  font-weight: 700;
+  padding: 20px 0;
+  color: #C26DBC; }
+
+h3 {
+  padding: 20px 0; }
+
+p {
+  font-size: 1.3em;
+  color: #1B1A19;
+  text-align: justify; }
+
+/* BACKGROUND */
+body {
+  font-size: 1.2em;
+  background-image: url(../img/background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  font-family: "Hind", sans-serif; }
+  body .boton-arriba {
+    display: none;
+    padding: 20px;
+    background-color: #C26DBC;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    opacity: 0.7; }
+    body .boton-arriba section {
+      background-color: rgba(255, 255, 255, 0.3); }
+
+#banner {
+  height: 25rem;
+  background-image: url(../img/header.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  justify-content: center; }
+  #banner .titulo_cabecera {
+    font-family: "Bevan";
+    font-style: normal;
+    font-weight: 200;
+    font-size: 3rem;
+    color: antiquewhite;
+    text-shadow: black 0.1em 0.1em 0.2em; }
+    #banner .titulo_cabecera .desde {
+      color: white;
+      text-shadow: black 0.1em 0.1em 0.2em;
+      letter-spacing: 3px; }
+
+#navBar {
+  background-color: rgba(218, 112, 214, 0.7);
+  border: solid 1px black; }
+  #navBar a {
+    color: #3CACAE;
+    text-decoration: none;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    padding: 10px 20px;
+    text-transform: uppercase; }
+  #navBar a:hover {
+    cursor: pointer;
+    background-color: blue; }
+
+#pie #icons a {
+  padding: 20px;
+  background-color: #0d2033;
+  transition: all 300ms ease; }
+  #pie #icons a a:hover {
+    color: aqua; }
+    #pie #icons a a:hover #copy {
+      background-color: #0a1a2a; }

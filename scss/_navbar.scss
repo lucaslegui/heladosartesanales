@@ -1,0 +1,16 @@
+#navBar {
+  background-color: rgba(218,112,214, 0.7);
+    border: solid 1px black;
+  
+    a {
+      color: $secondaryColor;
+      text-decoration: none;
+      text-shadow: black 0.1em 0.1em 0.2em;
+      padding: 10px 20px;
+      text-transform: uppercase;
+    }
+    a:hover {
+      cursor: pointer;
+      background-color: blue;
+    }
+  }

@@ -1,0 +1,29 @@
+/* BACKGROUND */
+body {
+  font-size: $textSm;
+  background-image: url(../img/background.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: auto;
+  font-family: $fontMain;
+
+  .boton-arriba {
+    display: none;
+    padding: 20px;
+    background-color: $mainColor;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    position: fixed;
+    bottom: 20px;
+    right: 0;
+    opacity: 0.7;
+
+    section {
+      background-color: rgba($color: #ffffff, $alpha: 0.3);
+
+
+
+    }
+  }
+}

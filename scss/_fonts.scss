@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Bevan&family=Hind:wght@300;700&display=swap');
+
+$fontMain:'Hind',
+sans-serif;
+$fontSecondary:'Bevan';
+
+/* VARIABLES DE TEXTO */
+
+$textXL:4em;
+$textLg:3em;
+$textMd:2em;
+$textSm:1.2em;
+
+/* colores  */
+$mainColor:#C26DBC;
+$secondaryColor:#3CACAE;
+
+/* sizing */
+$w-100:100%;
+$w-50:50%;
+$w-25:25%;
+
+/* ETIQUETAS */
+h1 {
+    font-size: $textLg;
+}
+
+h2 {
+    font-size: $textMd;
+    font-weight: 700;
+    padding: 20px 0;
+    color: $mainColor;
+}
+
+h3 {
+    padding: 20px 0;
+}
+
+p { font-size: 1.3em;
+    color: #1B1A19;
+    text-align: justify;
+}
+
+
